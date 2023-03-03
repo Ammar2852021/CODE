@@ -415,7 +415,7 @@ main .container>a:hover,
     width: clamp(250px, 30vw, 250px);
     height: clamp(350px, 30vw, 300px);
     margin-left: 100px;
-    background-image: url(/images/2023_01_27_09_20_IMG_7063.JPG);
+    background-image: url(/CODE/images/2023_01_27_09_20_IMG_7063.JPG);
     background-size: cover;
 
     border-radius: 5px;
@@ -878,10 +878,7 @@ main{position: relative;}
 .image{ height: calc(186px + clamp(40px, 10vw, 80px)); background-size: cover; background-position: center center;}
 
 
-.target{background-image: url(/images/projects/target.png);}
-.Chat{background-image: url(/images/projects/Chat.png);}
-.FACE{background-image: url(/images/projects/FACE.png);}
-.whats{background-image: url(/images/projects/whats.png);}
-.{background-image: url(/images/projects/target.png);}
-.{background-image: url(/images/projects/target.png);}
-.{background-image: url(/images/projects/target.png);}
+.target{background-image: url(/CODE/images/projects/target.png);}
+.Chat{background-image: url(/CODE/images/projects/Chat.png);}
+.FACE{background-image: url(/CODE/images/projects/FACE.png);}
+.whats{background-image: url(/CODE/images/projects/whats.png);}
