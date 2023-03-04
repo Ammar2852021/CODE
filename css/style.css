@@ -94,7 +94,7 @@ section h1:not(.contact h1) {
 hr {
     width: calc(100% - 20px);
     margin-left: 20px;
-    border: 1px solid #64ffda;
+    border: 1px solid var(--main-color);
 }
 
 a {
@@ -536,7 +536,7 @@ main .container>a:hover,
     border-radius: 5px;
     font-size: 15px;
     color: #ccd6f6;
-    box-shadow: 0 10px 30px -15px rgba(2, 12, 27, 0.7);
+    /* box-shadow: 0 10px 30px -15px rgba(2, 12, 27, 0.7); */
     text-align: left;
     width: calc(100% + min(8vw, 100px));
     transition: box-shadow 0.3s;
@@ -588,7 +588,7 @@ main .container>a:hover,
     border-radius: 4px;
     overflow: hidden;
     height: min(20vw, 250px);
-    border:  3px solid #64ffda;
+    border:  3px solid var(--main-color);
 }
 
 /* 12.5 */
@@ -722,7 +722,7 @@ main .container>a:hover,
 
     .projects .main-projects .project .image {
         pointer-events: none;
-        border: 1px solid #64ffda;
+        border: 1px solid  var(--main-color);
 
     }
 
@@ -882,8 +882,9 @@ main{position: relative;}
 .image{ height: calc(186px + clamp(40px, 10vw, 80px)); background-size: cover; background-position: center center;}
 
 
-.target{background-image: url(/CODE/images/projects/target.png);}
+/* .target{background-image: url(/CODE/images/projects/target.png);}
 .Chat{background-image: url(/CODE/images/projects/Chat.png);}
 .FACE{background-image: url(/CODE/images/projects/FACE.png);}
-.whats{background-image: url(/CODE/images/projects/whats.png);}
+.whats{background-image: url(/CODE/images/projects/whats.png);} */
 .Photos{background-position: center top;}
+.H3{ margin-top: 13vh; font-size: 5rem; text-align: center;}
