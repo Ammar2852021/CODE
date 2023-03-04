@@ -467,6 +467,9 @@ main .container>a:hover,
 }
 
 @media (max-width: 767px) {
+
+
+    #canvas{display: none;}
     .about .main-content {
         grid-template-columns: 1fr;
         justify-items: center;
