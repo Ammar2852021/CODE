@@ -468,6 +468,7 @@ main .container>a:hover,
 
 @media (max-width: 767px) {
 
+    .Front{ font-size: 30px;}
 
     #canvas{display: none;}
     .about .main-content {
