@@ -417,24 +417,9 @@ main .container>a,
 
 @media (max-width: 767px) {
 
-    #contact {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        margin: auto;
-        height: 20vh;
-        width: 91%;
-        border-radius: 4px;
-    margin-top: 3vh;
-    margin-bottom: 5vh;}
-    
-    .PUT{margin-top: -4vh;}
-    
-    #contact .END{margin: 1vh 0vh 0vh 10vh; font-size: 16px;}
-    
+    #PC{display: none;}
 
-
-
-
+    #contact{display: block;}
 
     .Front{ font-size: 30px;}
 
@@ -706,38 +691,27 @@ main .container>a,
 
 /* Contact */
 .contact {
-   
-    display: grid;
-    grid-template-columns: 2fr 1fr;
-    margin: auto;
-border: 2px solid #64ffda;
-    height: 20vh;
-    width: 85%;
-    border-radius: 4px;
-margin-top: 10vh;
-margin-bottom: 5vh;}
+    text-align: center;
+    display: none;
+}
 
-.PUT{margin-top: -4vh;}
-
-.END{margin-top: 3.5vh;}
-
-/* .contact h1 {
+.contact h1 {
     font-weight: normal;
     font-size: 16px;
     text-transform: capitalize;
     color: var(--main-color);
     font-family: var(--secondary-font);
-} */
+}
 
-/* .contact h1::before {
+.contact h1::before {
     font-size: 15px;
-} */
+}
 
-/* .contact h2 {
+.contact h2 {
     margin-bottom: 10px;
     font-size: clamp(40px, 5vw, 60px);
     color: #ccd6f6;
-} */
+}
 
 .contact p {
     max-width: 540px;
@@ -837,3 +811,27 @@ main{position: relative;}
 
 .Photos{background-position: center top;}
 .H3{ margin-top: 13vh; font-size: 5rem; text-align: center;}
+
+
+
+
+
+
+
+
+
+
+.pc {
+   
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    margin: auto;
+border: 2px solid #64ffda;
+    height: 20vh;
+    width: 85%;
+margin-top: 10vh;
+margin-bottom: 5vh;
+}
+
+.PUT{margin-top: -4vh;}
+.END{margin-top: 3.5vh;}
