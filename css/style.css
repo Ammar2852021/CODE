@@ -687,26 +687,38 @@ main .container>a,
 
 /* Contact */
 .contact {
-    text-align: center;
-}
+   
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    margin: auto;
+border: 2px solid #64ffda;
+    height: 20vh;
+    width: 85%;
+    border-radius: 4px;
+margin-top: 10vh;
+margin-bottom: 5vh;}
 
-.contact h1 {
+.PUT{margin-top: -4vh;}
+
+.END{margin-top: 1vh;}
+
+/* .contact h1 {
     font-weight: normal;
     font-size: 16px;
     text-transform: capitalize;
     color: var(--main-color);
     font-family: var(--secondary-font);
-}
+} */
 
-.contact h1::before {
+/* .contact h1::before {
     font-size: 15px;
-}
+} */
 
-.contact h2 {
+/* .contact h2 {
     margin-bottom: 10px;
     font-size: clamp(40px, 5vw, 60px);
     color: #ccd6f6;
-}
+} */
 
 .contact p {
     max-width: 540px;
