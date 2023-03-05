@@ -417,6 +417,25 @@ main .container>a,
 
 @media (max-width: 767px) {
 
+    #contact {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin: auto;
+        height: 20vh;
+        width: 91%;
+        border-radius: 4px;
+    margin-top: 3vh;
+    margin-bottom: 5vh;}
+    
+    .PUT{margin-top: -4vh;}
+    
+    #contact .END{margin: 1vh 0vh 0vh 10vh; font-size: 16px;}
+    
+
+
+
+
+
     .Front{ font-size: 30px;}
 
     #canvas{display: none;}
@@ -700,7 +719,7 @@ margin-bottom: 5vh;}
 
 .PUT{margin-top: -4vh;}
 
-.END{margin-top: 1vh;}
+.END{margin-top: 3.5vh;}
 
 /* .contact h1 {
     font-weight: normal;
