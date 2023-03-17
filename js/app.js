@@ -140,7 +140,7 @@ window.requestAnimFrame = function () {
           c.fillStyle = "white";
         } else {
           c.arc(this.x, this.y, this.rand * 2, 0, 2 * Math.PI);
-          c.fillStyle = "orange";
+          c.fillStyle = "#00e6ee";
         }
         c.fill();
       }
@@ -200,7 +200,7 @@ window.requestAnimFrame = function () {
         0,
         2 * Math.PI
       );
-      c.fillStyle = "orange";
+      c.fillStyle = "#00e6ee";
       c.fill();
   
       for (i = 0; i < numt; i++) {
